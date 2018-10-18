@@ -1,2 +1,0 @@
-# DevExtremeDatagridCustomDataSource
-Created with CodeSandbox
