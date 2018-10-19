@@ -1,6 +1,6 @@
 ## Demo image
 
-![alt text](https://github.com/daliyajohn/Angular-CLI-Dashboard-Devextreme-Charts/blob/master/src/assets/images/AnatolyAngularDevExtremeDemo.png)
+![alt text](https://github.com/apkalexei/AngularDevExtremeDatagridCharts/blob/master/src/assets/images/AnatolyAngularDevExtremeDemo.png)
 
 # AngularCli
 
