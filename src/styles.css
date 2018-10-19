@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+body {
+  margin: 0px;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+.main-router {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.main-router-main {
+  max-height: 100% !important;
+  height: initial !important;
+  overflow: auto !important;
+}
+.app-sidenav {
+  width: 199px;
+  background: #293a42;
+  transition: 0.2s !important;
+  transition-timing-function: linear !important;
+}
+.app-sidenav h4 {
+  color: rgba(250, 242, 242, 0.73);
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.mat-sidenav {
+  width: 52px;
+  cursor: pointer;
+  min-width: 0px !important;
+  overflow: hidden;
+  transform: translate3d(0,0,0)!important;
+}
+.mat-sidenav .linkIcon1 {
+  font-size: 23px !important;
+  color: rgba(255, 255, 255, 0.77);
+}
+
+.tlb-open {
+  width: 175px;
+}
+
+.tlb-close {
+  width: 58px;
+}
+
+.tlb-open h4 {
+  display: block;
+}
+
+.mat-sidenav-container {
+  background: #f0f5f1;
+}
+
+.mat-sidenav-transition .mat-sidenav-content {
+  transition-duration: .2s !important;
+  transition-timing-function: linear !important;
+  background: #f0f5f1;
+}
+.mat-sidenav .mat-list .mat-list-item:hover {
+  background: rgba(23, 28, 48, 0.52);
+  width: 250px;
+}
+
+.app-sidenav .mat-list .mat-list-item .mat-list-item-content,
+.app-sidenav .mat-nav-list .mat-list-item .mat-list-item-content {
+    height: 53px!important;
+}
+.admin_name img .tlb-open {
+  width: 123px;
+  height: 123px;
+  margin-left: 25px;
+}
+@media (min-width: 740px) and (max-width: 888px) {
+  .mat-list .mat-list-item .mat-list-item-content {
+      padding: 0px 7px 0px 7px;
+  }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .main-router-ipad {
+      height: 100vh;
+  }
+}
+.overlay-none {
+    display: none;
+}
+.admin_name img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+.tlb-open .admin_name img {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  margin-left: 39px;
+}
+.mat-sidenav.mat-sidenav-closed {
+  visibility: visible;
+}
+.mat-sidenav-backdrop.mat-sidenav-shown {
+  background-color: initial;
+}
+.mat-toolbar {
+  position: fixed;
+  z-index: 1;
+  background: white;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}

@@ -1,0 +1,33 @@
+<dx-data-grid id="gridContainer"
+    [dataSource]="dataSource"
+    [showBorders]="true"
+    [columnHidingEnabled]="true">
+    <dxo-search-panel
+    [visible]="true"
+
+    [highlightCaseSensitive]="true"
+></dxo-search-panel>
+
+<dxo-export [enabled]="true" fileName="Employees" [allowExportSelectedData]="true"></dxo-export>
+<dxo-selection mode="multiple"></dxo-selection>
+    <dxo-filter-row [visible]="true"></dxo-filter-row>
+    <dxo-header-filter [visible]="true"></dxo-header-filter>
+    <dxo-group-panel [visible]="true"></dxo-group-panel>
+    <dxo-grouping [contextMenuEnabled]="true" expandMode="rowClick"></dxo-grouping>
+    <dxi-column dataField="OrderNumber"></dxi-column>
+    <dxi-column dataField="OrderDate"></dxi-column>
+    <dxi-column dataField="StoreCity"></dxi-column>
+    <dxi-column dataField="StoreState"></dxi-column>
+    <dxi-column dataField="Employee"></dxi-column>
+    <dxi-column dataField="SaleAmount" format="currency"></dxi-column>
+    <dxo-remote-operations
+        [sorting]="true"
+        [paging]="true">
+    </dxo-remote-operations>
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager
+        [showPageSizeSelector]="true"
+        [allowedPageSizes]="[5, 10, 20]"
+        [showInfo]="true"
+    ></dxo-pager>
+</dx-data-grid>
