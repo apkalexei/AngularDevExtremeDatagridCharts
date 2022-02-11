@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular/animations@^4.1.3":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-4.4.7.tgz#4d108e89cafe8d0d193385e7aa1b3b00e8199ade"
+"@angular/animations@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-4.2.5.tgz#1230f6bc6a18f2abb23e27f1d9ae9efafd1a6031"
   dependencies:
     tslib "^1.7.1"
 
@@ -73,9 +73,9 @@
   optionalDependencies:
     node-sass "^4.3.0"
 
-"@angular/common@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.4.7.tgz#c2fd3e68a05f661c3d2a040fdad00af4119bb852"
+"@angular/common@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.2.5.tgz#4d50a95b444cd58cf706f0da9dd1407d3b83362e"
   dependencies:
     tslib "^1.7.1"
 
@@ -87,15 +87,15 @@
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
 
-"@angular/compiler@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.4.7.tgz#c90b0a8d450e1ea19a5a60309ca03b0925a2f269"
+"@angular/compiler@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.2.5.tgz#b48674c7456b2b0df1072d70e4e667af86cddf83"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.4.7.tgz#18bdc17bec7bdccb6424402fc90550e15a6d221b"
+"@angular/core@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.2.5.tgz#61c1b5885c262332d737fbe0f5d71151759a8464"
   dependencies:
     tslib "^1.7.1"
 
@@ -103,15 +103,15 @@
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-rc.1.tgz#96fa7f85b2c4bacf2784913a2d607e2ed23dc7f1"
 
-"@angular/forms@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.4.7.tgz#f9503ad8f4bd77a7ba93714afea46c4944887758"
+"@angular/forms@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.2.5.tgz#a7e55c8d1f5a4e8537efe1edd7834e4a1f59c6e4"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/http@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/http/-/http-4.4.7.tgz#8fab2eb121cda38ad9c568e5268f7d69ab8b904e"
+"@angular/http@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-4.2.5.tgz#3fff8e5cf8e88262bacd1c996304312c3c5a3aef"
   dependencies:
     tslib "^1.7.1"
 
@@ -119,21 +119,21 @@
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@angular/material/-/material-2.0.0-beta.3.tgz#ec31dee61d7300ece28fee476852db236ded1e13"
 
-"@angular/platform-browser-dynamic@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.4.7.tgz#c10676f49de5ac604e326cba440ff6a6af6588fe"
+"@angular/platform-browser-dynamic@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.2.5.tgz#8076ec4a885cc3a1a23c5e540c40a7fdd3f7e7b2"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.4.7.tgz#76d5af9438d6a349ea0b5fe97bd8fbe1fdc216a9"
+"@angular/platform-browser@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.2.5.tgz#d9ddfe0f81084e98ef24a79f485dbb112e78a0c4"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/router@^4.0.0":
-  version "4.4.7"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-4.4.7.tgz#b642ae00f5f93f5e864f3d2b3e735509cd814c05"
+"@angular/router@4.2.5":
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-4.2.5.tgz#7f364089493ab1a06eac5f0c628c0f9fdb11008f"
   dependencies:
     tslib "^1.7.1"
 
@@ -972,8 +972,8 @@ chokidar@^2.0.2:
     fsevents "^1.2.2"
 
 chownr@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
 
 ci-info@^1.0.0:
   version "1.1.3"
@@ -1603,13 +1603,13 @@ detect-node@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.3.tgz#a2033c09cc8e158d37748fbde7507832bd6ce127"
 
-devextreme-angular@~18.1.4:
-  version "18.1.4"
-  resolved "https://registry.yarnpkg.com/devextreme-angular/-/devextreme-angular-18.1.4.tgz#ea633afe8a3baa62ed09d4762f5f0be5b6a0b68d"
+devextreme-angular@^17.2.7:
+  version "17.2.18"
+  resolved "https://registry.yarnpkg.com/devextreme-angular/-/devextreme-angular-17.2.18.tgz#ed98f0708b2cf36241fc00159aa37715bac408ec"
 
-devextreme@~18.1.4:
-  version "18.1.4"
-  resolved "https://registry.yarnpkg.com/devextreme/-/devextreme-18.1.4.tgz#a1552df205bea37f6b50769c7bbcaa3b8fd9e81c"
+devextreme@^17.2.7:
+  version "17.2.18"
+  resolved "https://registry.yarnpkg.com/devextreme/-/devextreme-17.2.18.tgz#69775458b7f5ce4579639e18800cfdf43f52acea"
   dependencies:
     jszip "^2.0.0 || ^3.0.0"
 
