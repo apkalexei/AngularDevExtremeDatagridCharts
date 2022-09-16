@@ -26,7 +26,7 @@
 
 
     "@types/jquery": "^2.0.42",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "bower": "^1.8.2",
     "core-js": "^2.4.1",
     "devextreme": "^17.2.7",
